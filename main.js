@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/azarashi/cktbgkxip5jml17n06wvzmgj9',
     center: [139.7670516, 35.6811673],//仮数値
-    zoom: 5,//仮数値
+    zoom: 4,//仮数値
     //bounds:addpoint(),
     customAttribution: ['<a href="https://www.jma.go.jp/jma/index.html">震度情報:©︎気象庁</a>', '<a href="https://nlftp.mlit.go.jp/index.html">国土数値情報:©︎国土交通省</a>','<a href="https://twitter.com/nyaonearthquake?s=21">編集:©︎nyaonearthquake</a>']
 });
