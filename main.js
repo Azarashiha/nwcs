@@ -67,7 +67,8 @@ map.on('load', function () {
     map.addSource(id, {
         'type': 'raster',
         'tiles': [
-            `https://www.jma.go.jp/bosai/jmatile/data/nowc/${basetime}/none/${basetime}/surf/hrpns/{z}/{x}/{y}.png`
+            //`https://www.jma.go.jp/bosai/jmatile/data/nowc/${basetime}/none/${basetime}/surf/hrpns/{z}/{x}/{y}.png`
+            `https://www.jma.go.jp/bosai/jmatile/data/nowc/20221022041000/none/20221022041000/surf/hrpns/{z}/{x}/{y}.png`
         ],
         'tileSize': 256,
         'minzoom': 2,
